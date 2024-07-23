@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    font-family: Poppins,sans-serif;
+}
+p {
+    font-family: Montserrat,sans-serif;
+}
