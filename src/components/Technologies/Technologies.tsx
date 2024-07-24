@@ -1,6 +1,7 @@
 import {motion} from "framer-motion";
 import {FaReact} from "react-icons/fa";
 import {RiNextjsFill, RiTailwindCssFill} from "react-icons/ri";
+import {SiFramer} from "react-icons/si";
 
 export default function Technologies() {
     return <div className="flex justify-center flex-wrap items-center w-full mx-auto p-5 md:p-10 ">
@@ -25,16 +26,16 @@ export default function Technologies() {
             whileInView={{y:0,x:0,opacity:1}}
             transition={{duration:2,delay:0.3}}
             className="flex">
-            <FaReact size={64} className="text-cyan-500 cursor-pointer mr-1"/>
-            <RiNextjsFill size={64} className="text-black cursor-pointer mr-10"/>
+            <FaReact size={80} className="text-cyan-500 cursor-pointer mr-1"/>
+            <RiNextjsFill size={80} className="text-black cursor-pointer mr-10"/>
         </motion.div>
         <motion.div
             initial={{x:-20,y:-20,opacity:0}}
             whileInView={{y:0,x:0,opacity:1}}
             transition={{duration:2,delay:0.4}}
             className="flex">
-            <RiTailwindCssFill size={64} className="text-sky-300 cursor-pointer mr-1"/>
-            <img src="../../../public/Techs/framer.svg" alt="framer motion" className="h-12 md:h-16 cursor-pointermr-10"/>
+            <RiTailwindCssFill size={80} className="text-sky-300 cursor-pointer mr-1"/>
+            <SiFramer size={80} className="cursor-pointer mr-1"/>
         </motion.div>
     </div>
 }
