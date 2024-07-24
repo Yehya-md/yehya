@@ -5,7 +5,7 @@ import Social from "../../Social/Social.tsx";
 import { motion } from "framer-motion";
 
 export default function MainFeed() {
-    return <main className="md:flex md:justify-between" id="Home">
+    return <main className="md:flex md:flex-row-reverse md:justify-between md:ml-14 lg:ml-16" id="Home">
         <RoundImage ImgSrc={"../../../public/yehya1.jpg"}/>
         <div className="dark:bg-gray-900 dark:text-white md:mt-24 lg:mt-28 text-center">
             <MainHeading />
@@ -16,6 +16,5 @@ export default function MainFeed() {
                 <Social/>
             </motion.div>
         </div>
-
     </main>
 }

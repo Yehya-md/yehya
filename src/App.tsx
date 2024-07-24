@@ -1,4 +1,3 @@
-// import { motion } from "framer-motion"
 import Footer from "./components/Footer/Footer.tsx";
 import MainFeed from "./components/Main/MainFeed/MainFeed.tsx";
 import Techs from "./components/Technologies/Techs.tsx"
@@ -21,6 +20,7 @@ function App() {
     else{
         Theme = <MdOutlineDarkMode size={33} className="text-center cursor-pointer" onClick={() => {setDark("dark")}}/>
     }
+
   return (
     <div className={dark}>
         <div className="dark:bg-gray-900 dark:text-white">
